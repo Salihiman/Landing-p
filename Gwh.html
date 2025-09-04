@@ -1,0 +1,261 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Claim Your Reward – Start Now</title>
+  <meta name="description" content="Attractive international CPA landing page. Customize text, images, and CTA button with your offer link." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .bg-animated { background: linear-gradient(135deg, #0ea5e9, #22c55e, #9333ea); background-size: 600% 600%; animation: move 15s ease infinite; }
+    @keyframes move { 0% {background-position: 0% 50%} 50% {background-position: 100% 50%} 100% {background-position: 0% 50%} }
+    .glow { box-shadow: 0 10px 25px rgba(34,197,94,.45); }
+    .faq-item[open] summary svg { transform: rotate(180deg); }
+  </style>
+</head>
+<body class="min-h-screen text-slate-800 bg-slate-50">
+  <header class="w-full bg-slate-900 text-white">
+    <div class="max-w-6xl mx-auto px-4 py-2 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <span class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-emerald-500 font-bold">✓</span>
+        <p class="text-sm">Secure & Verified • 256‑bit SSL</p>
+      </div>
+      <p class="text-sm hidden md:block">Support: support@yourbrand.com</p>
+    </div>
+  </header>
+
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-animated opacity-20"></div>
+    <div class="relative max-w-6xl mx-auto px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <span class="inline-block text-xs tracking-widest uppercase bg-emerald-100 text-emerald-700 px-3 py-1 rounded-full">Simple 3 Steps</span>
+        <h1 class="mt-4 text-3xl md:text-5xl font-extrabold leading-tight">Claim Your <span class="text-emerald-600">Reward</span> / Bonus / Gift in <u>just a few minutes</u>.</h1>
+        <p class="mt-4 text-base md:text-lg text-slate-600">Complete a quick task today and unlock your reward instantly. No hassle. No waiting.</p>
+        <div class="mt-6 flex items-center gap-6">
+          <div class="flex -space-x-2">
+            <img alt="avatar" class="w-8 h-8 rounded-full border" src="https://i.pravatar.cc/40?img=1"/>
+            <img alt="avatar" class="w-8 h-8 rounded-full border" src="https://i.pravatar.cc/40?img=2"/>
+            <img alt="avatar" class="w-8 h-8 rounded-full border" src="https://i.pravatar.cc/40?img=3"/>
+          </div>
+          <p class="text-sm text-slate-600"><span id="statUsers" class="font-semibold">12,487</span> users already claimed this week.</p>
+        </div>
+        <div class="mt-6">
+          <div class="flex items-center justify-between text-xs text-slate-500">
+            <span>Spots remaining</span><span id="spotsLeft">23</span>
+          </div>
+          <div class="w-full h-2 bg-slate-200 rounded-full overflow-hidden mt-2">
+            <div id="spotsBar" class="h-2 bg-emerald-500" style="width: 80%"></div>
+          </div>
+        </div>
+        <div class="mt-8 flex flex-col sm:flex-row gap-3">
+          <a id="primaryCta" href="https://tundrafile.com/1840252" target="_self" rel="noopener" class="glow inline-flex items-center justify-center px-6 py-3 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-semibold">🚀 Get Started Now</a>
+          <a href="#how" class="inline-flex items-center justify-center px-6 py-3 rounded-2xl bg-white ring-1 ring-slate-200 hover:bg-slate-100 text-slate-800 font-medium">How it works</a>
+        </div>
+        <p class="mt-3 text-xs text-slate-500">* Some offers may require email or phone verification.</p>
+      </div>
+      <div class="md:pl-8">
+        <div class="mx-auto max-w-sm bg-white rounded-3xl shadow-xl p-5 border border-slate-100">
+          <div class="aspect-[9/16] rounded-2xl bg-gradient-to-br from-slate-100 to-slate-200 grid place-items-center">
+            <div class="text-center px-6">
+              <div class="text-6xl mb-2">🎁</div>
+              <p class="font-bold">Special Bonus</p>
+              <p class="text-sm text-slate-500">Sign Up – Complete – Claim</p>
+            </div>
+          </div>
+          <button onclick="document.getElementById('primaryCta').click()" class="mt-4 w-full px-4 py-3 bg-emerald-600 hover:bg-emerald-700 text-white rounded-2xl font-semibold">Claim Reward</button>
+          <p class="text-center text-xs text-slate-500 mt-2">No registration fees • Fast approval</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how" class="py-14">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl md:text-3xl font-bold">How it Works</h2>
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-2xl shadow-sm p-6 border border-slate-100">
+          <div class="text-3xl">🔎</div>
+          <h3 class="mt-3 font-bold">1) Click the Button</h3>
+          <p class="text-slate-600 text-sm">We'll take you to the offer page. Opens in this tab.</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-sm p-6 border border-slate-100">
+          <div class="text-3xl">📝</div>
+          <h3 class="mt-3 font-bold">2) Complete the Task</h3>
+          <p class="text-slate-600 text-sm">Finish the survey, signup, or verification as required.</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-sm p-6 border border-slate-100">
+          <div class="text-3xl">💸</div>
+          <h3 class="mt-3 font-bold">3) Receive Reward</h3>
+          <p class="text-slate-600 text-sm">Instant access to your bonus or credit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-14 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl md:text-3xl font-bold">Why People Love This</h2>
+      <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div class="p-5 rounded-2xl border border-slate-100 shadow-sm">
+          <div class="text-2xl">⚡</div>
+          <p class="mt-2 font-semibold">Fast & Easy</p>
+          <p class="text-sm text-slate-600">Takes only a few minutes to finish.</p>
+        </div>
+        <div class="p-5 rounded-2xl border border-slate-100 shadow-sm">
+          <div class="text-2xl">🛡️</div>
+          <p class="mt-2 font-semibold">Trusted</p>
+          <p class="text-sm text-slate-600">Offers from verified partners.</p>
+        </div>
+        <div class="p-5 rounded-2xl border border-slate-100 shadow-sm">
+          <div class="text-2xl">🎯</div>
+          <p class="mt-2 font-semibold">Instant Rewards</p>
+          <p class="text-sm text-slate-600">Clear terms. No hidden costs.</p>
+        </div>
+        <div class="p-5 rounded-2xl border border-slate-100 shadow-sm">
+          <div class="text-2xl">📱</div>
+          <p class="mt-2 font-semibold">Mobile Ready</p>
+          <p class="text-sm text-slate-600">Looks great on all devices.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <body>
+<head>
+<style>
+section{
+  border-radius:20px;
+</style>
+</head>
+<section class="bg-white shadow-xl p-6 rounded-2xl text-center">
+  <h2 class="text-2xl font-bold mb-4">🎁 Unlock This Offer</h2>
+  <p class="mb-4">Invite <b>5 friends</b> with your link to unlock this<h1> $50</h1> exclusive reward!</p>
+
+  <div class="bg-gray-200 rounded-full h-4 w-full mb-3">
+    <div id="progress" class="bg-green-500 h-4 rounded-full" style="width: 0%;"></div>
+  </div>
+  <p><span id="refCount">0</span>/5 Referrals</p>
+
+  <div class="flex items-center mt-4">
+    <input type="text" id="refLink" readonly class="w-full p-2 border rounded-xl" 
+           value="https://yourdomain.com/?ref=USER123">
+    <button onclick="copyLink()" class="ml-2 bg-blue-600 text-white px-3 py-1 rounded-xl">Copy</button>
+  </div>
+
+  <button id="offerBtn" disabled 
+          class="w-full bg-gray-400 text-white py-3 rounded-xl mt-5">Locked 🔒</button>
+</section>
+
+<script>
+  let referrals = 0;
+  function addReferral() {
+    if (referrals < 5) {
+      referrals++;
+      document.getElementById("refCount").innerText = referrals;
+      document.getElementById("progress").style.width = (referrals/5*100)+"%";
+    }
+    if (referrals >= 5) {
+      const btn = document.getElementById("offerBtn");
+      btn.disabled = false;
+      btn.classList.remove("bg-gray-400");
+      btn.classList.add("bg-green-600");
+      btn.innerText = "Unlock Offer 🎉";
+      btn.onclick = () => window.location.href = "YOUR_CPA_OFFER_LINK";
+    }
+  }
+
+  function copyLink() {
+    const refInput = document.getElementById("refLink");
+    refInput.select();
+    document.execCommand("copy");
+    alert("Referral link copied!");
+  }
+
+  // NOTE: For demo purpose, you can simulate referral clicks
+  // by calling addReferral() manually or via backend tracking.
+
+
+  <section class="py-14">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl md:text-3xl font-bold">User Testimonials</h2>
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <figure class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm">
+          <blockquote class="text-sm text-slate-700">"I completed a quick survey in 3 minutes and instantly got my reward."</blockquote>
+          <figcaption class="mt-3 text-xs text-slate-500">-- Sarah, UK</figcaption>
+        </figure>
+        <figure class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm">
+          <blockquote class="text-sm text-slate-700">"Got free credits right after verification. Totally legit."</blockquote>
+          <figcaption class="mt-3 text-xs text-slate-500">-- John, USA</figcaption>
+        </figure>
+        <figure class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm">
+          <blockquote class="text-sm text-slate-700">"No stress, no hidden tricks. I even shared my link with friends."</blockquote>
+          <figcaption class="mt-3 text-xs text-slate-500">-- Maria, Canada</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-14 bg-white">
+    <div class="max-w-3xl mx-auto px-4">
+      <h2 class="text-2xl md:text-3xl font-bold">FAQ</h2>
+      <div class="mt-6 space-y-3">
+        <details class="faq-item bg-white rounded-2xl border border-slate-200 p-4">
+          <summary class="flex justify-between items-center cursor-pointer select-none">
+            <span class="font-semibold">Do I have to pay?</span>
+            <svg class="w-4 h-4 transition-transform" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd"/></svg>
+          </summary>
+          <p class="mt-2 text-sm text-slate-600">No – most offers are free. If payment is required, it will be clearly stated upfront.</p>
+        </details>
+        <details class="faq-item bg-white rounded-2xl border border-slate-200 p-4">
+          <summary class="flex justify-between items-center cursor-pointer select-none">
+            <span class="font-semibold">What if the offer doesn't load?</span>
+            <svg class="w-4 h-4 transition-transform" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd"/></svg>
+          </summary>
+          <p class="mt-2 text-sm text-slate-600">Try refreshing the page or use another device/connection. Some offers are geo‑restricted.</p>
+        </details>
+        <details class="faq-item bg-white rounded-2xl border border-slate-200 p-4">
+          <summary class="flex justify-between items-center cursor-pointer select-none">
+            <span class="font-semibold">Is my data safe?</span>
+            <svg class="w-4 h-4 transition-transform" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd"/></svg>
+          </summary>
+          <p class="mt-2 text-sm text-slate-600">We only work with partners that comply with international privacy standards (GDPR/CCPA).</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-10">
+    <div class="max-w-6xl mx-auto px-4 text-center text-xs text-slate-500">
+      <p>© <span id="year"></span> YourBrand. We are not directly affiliated with the mentioned companies. *Disclosure:* we may earn a commission if you complete an offer.</p>
+      <div class="mt-2 flex gap-4 justify-center">
+        <a href="#" class="hover:underline">Privacy</a>
+        <a href="#" class="hover:underline">Terms</a>
+        <a href="#" class="hover:underline">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const base = 25, minLeft = 5;
+    const left = Math.max(minLeft, Math.floor(base - Math.random()*8));
+    document.getElementById('spotsLeft').textContent = left;
+    document.getElementById('spotsBar').style.width = Math.min(100, Math.floor(left/base*100)) + '%';
+
+    function buildLinkWithUTM(url){
+      try{
+        const u = new URL(url, location.href);
+        const src = new URLSearchParams(location.search);
+        ['utm_source','utm_medium','utm_campaign','utm_content','subid','sub_id','affid'].forEach(k=>{
+          if(src.get(k)) u.searchParams.set(k, src.get(k));
+        });
+        return u.toString();
+      }catch(e){ return url; }
+    }
+    const primary = document.getElementById('primaryCta');
+    primary.href = buildLinkWithUTM(primary.href);
+
+    function track(eventName, data={}){ console.log('[track]', eventName, data); }
+    primary.addEventListener('click', ()=>track('cta_click', {id:'primary', href: primary.href}));
+  </script>
+</body>
+</html>
